@@ -102,7 +102,7 @@ If `Result = FAIL` you will start getting weird errors in TensorFlow pointing to
 ### Tensorflow
 
 Install from sources:
-https://www.tensorflow.org/install/install_sources (bazel build takes some time, e.g. ~814 seconds on i7-7700K)
+https://www.tensorflow.org/install/install_sources (bazel build takes some time, e.g. ~*814 seconds* on Intel i7-7700K, and ~*3000 seconds* on AMD A8-7600)
 
 ```bash
 ./configure 
