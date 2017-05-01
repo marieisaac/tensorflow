@@ -187,3 +187,11 @@ When building GPU version with bazel?
 ```bash
 /usr/bin/ld: cannot find Scrt1.o: No such file or directory
 ```
+
+Or with clang as the CUDA compiler (6.1 computing capability for 1080ti)
+
+```bash
+...nt(s) skipped): com.google.devtools.build.lib.shell.BadExitStatusException: Process exited with status 1.
+clang: error: Unsupported CUDA gpu architecture: sm_61
+
+```
