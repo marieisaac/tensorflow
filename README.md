@@ -181,3 +181,9 @@ cd ~/anaconda2/lib
 mv -vf libstdc++.so.6 libstdc++.so.6.old
 ln -s /usr/lib/x86_64-linux-gnu/libstdc++.so.6 ./libstdc++.so.6
 ```
+
+When building GPU version with bazel?
+
+```bash
+/usr/bin/ld: cannot find Scrt1.o: No such file or directory
+```
